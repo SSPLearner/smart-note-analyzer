@@ -5,7 +5,7 @@ import os
 # -----------------------------
 # 🔐 Password protection
 # -----------------------------
-PASSWORD = "letmein123"  # ✅ Change this to your own password
+PASSWORD = your-secret-password  # ✅ Change this to your own password
 if "authenticated" not in st.session_state:
     st.session_state.authenticated = False
 
